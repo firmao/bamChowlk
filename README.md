@@ -1,6 +1,6 @@
 ![Logo](https://github.com/oeg-upm/Chowlk/blob/webservice/static/resources/logo.png)
 
-# Chowlk Converter
+# BAM version of Chowlk Converter
 Tool to transform ontology conceptualizations made with diagrams.net into OWL code.
 
 The conceptualizations should follow the <a href="https://chowlk.linkeddata.es/chowlk_spec">Chowlk visual notation</a>. Please visit the specification for more details.
