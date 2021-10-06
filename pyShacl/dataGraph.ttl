@@ -1,0 +1,17 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+<http://example.com/Jane_Doe> a schema:Person ;
+	schema:name "Janet" .
+
+<http://example.com/John_Doe> a schema:Person ;
+	schema:knows <http://example.com/Jane_Doe> ;
+	schema:name "John Doe" ;
+	foaf:gender "Malee" ;
+  schema:birthDate "1971-07-07" ;
+  schema:deathDate "1955-09-10" ;
+	schema:age "17" .
